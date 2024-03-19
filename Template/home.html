@@ -1,0 +1,92 @@
+{% load static %}
+{% load bootstrap4 %}
+{% bootstrap_css %}
+{% bootstrap_javascript %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Training Institute | PySpiders</title>
+    <link rel="stylesheet" href="{% static 'home.css' %}">
+</head>
+<body>
+    <header>
+        <section>
+            <ul class="unord1">
+                <li><img src="https://pyspiders.com/_nuxt/img/logo_pyspiders.4f56184.png" alt=""></li>
+            </ul>
+            <ul class="unord2">
+                <a href="{% url 'web:home' %}"><li id="home">Home</li></a>
+                <a href="{% url 'web:trainers' %}"><li>Trainers</li></a>
+                <a href="{% url 'web:courses' %}"><li>Courses</li></a>
+                <a href="{% url 'web:contact' %}"><li>Contact us</li></a>
+                <a href="{% url 'web:enquiry' %}"><li>Enquiry</li></a>
+                <a href="{% url 'web:about' %}"><li>About Us</li></a>
+                <a href="{% url 'web:register' %}"><li id="logout">Logout</li></a>
+            </ul>
+        </section>
+    </header>
+    <section class="section">
+        <section class="sect">
+            <p>
+                <p class="index">”PySpiders is a place where businesses find talent and dreams take flight."</p> 
+                <br>
+                <br>
+                PySpiders is the world's ace software course training organization with an aim to bridge the gap between the demands of the industry and the curriculum of educational institutions.
+
+                With centers across the Globe, the institute is a platform where young minds are given the opportunity to build successful careers.
+                
+                The course teaches you the essential <br>concepts of Python programming, and gives you an in-depth knowledge in data analytics, machine learning, data visualization, web scraping, and natural language processing. You will master the essential concepts of data types, tuples, lists, dicts, basic operators, and functions. Now it’s time to learn Python. The basics will help you nab a high position in the exciting field of your choice, along with a boosted earning potential. Data science is likely your best bet, but wherever you land, you’ll be happy you learned Python programming.
+            </p>
+        </section>
+        <footer>
+            <section class="sect2">
+                <div class="demo1">
+                    <h2 class="recent">
+                        Recently Placed Students 
+                    </h2>
+                    <span>
+                        <img src="https://cdn.pixabay.com/photo/2019/10/23/08/03/woman-4570763_1280.jpg" alt="" class="image">
+                        <br>
+                        <br>
+                        <p>
+                            Name: Chaitra M K <br>
+                            Degree: BE <br>
+                            Degree %: 79.58 <br>
+                            YOP: 2022 <br>
+                            Stream: Computer Science
+                        </p>
+                    </span>
+                    <span>
+                        <img src="https://cdn.pixabay.com/photo/2020/09/29/13/27/woman-5612838_1280.jpg" alt="" class="image">
+                        <br>
+                        <br>
+                        <p>
+                            Name: Chitra K <br>
+                            Degree: BSC <br>  
+                            Degree %: 80.02 <br>
+                            YOP: 2021 <br>
+                            Stream: Information Technology
+                        </p> 
+                    </span>
+                    <span>
+                        <img src="https://cdn.pixabay.com/photo/2018/09/11/18/20/men-3670197_640.jpg" alt="" class="image">
+                        <br>
+                        <br>
+                        <p>
+                            Name: Chaitan<br>
+                            Degree: BSC <br>
+                            Degree %: 59.58 <br>
+                            YOP: 2022 <br>
+                            Stream: Civil Engineering 
+                        </p>
+                    </span>
+                </div>
+            </section>
+        </footer>
+    </section>
+</body>
+</html>
+
+<!-- https://cdn.pixabay.com/photo/2015/03/18/03/35/girl-678700_640.jpg -->

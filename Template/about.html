@@ -1,0 +1,51 @@
+{% load static %}
+{% load bootstrap4 %}
+{% bootstrap_css %}
+{% bootstrap_javascript %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Training Institute | PySpiders</title>
+    <link rel="stylesheet" href="{% static 'about.css' %}">
+</head>
+<body>
+    <header>
+        <section>
+            <ul class="unord1">
+                <li><img src="https://pyspiders.com/_nuxt/img/logo_pyspiders.4f56184.png" alt=""></li>
+            </ul>
+            <ul class="unord2">
+                <a href="{% url 'web:home' %}"><li>Home</li></a>
+                <a href="{% url 'web:trainers' %}"><li>Trainers</li></a>
+                <a href="{% url 'web:courses' %}"><li>Courses</li></a>
+                <a href="{% url 'web:contact' %}"><li>Contact us</li></a>
+                <a href="{% url 'web:enquiry' %}"><li>Enquiry</li></a>
+                <a href="{% url 'web:about' %}"><li id="about">About Us</li></a>
+            </ul>
+        </section>
+    </header>
+    <section class="set">
+        <p class="para">
+            PySpiders is No.1 software testing training institute in India with a view to bridge the gap between industry requirement and curriculum of educational institutions and also to meet the ever increasing demand for Quality IT professional. The institute is designed to work as a ‘Finishing School’ and is moulded with several ‘Campus to Corporate’ modules. 
+            <br> <br> 
+            At PySpiders, our mantra is “Quality” and this is reflected in the way we train, in the way we function and more so in our name –QSpiders. Our journey began in 2003 with the aim of providing quality training to all those aspiring for a successful career in the IT industry. With a humble start in a non-commercial venue, we sought out sincere candidates and helped them fulfill their dreams. This venture later grew due to the high level of quality provided by QSpiders, and resulted in a list of worthy students and clients.
+            <br> <br> <br>
+            <b>Website</b> <br> 
+            <a href="http://www.pyspiders.com">http://www.pyspiders.com</a>  <br> <br>    
+            <b>Industry</b> <br> 
+            Software Development
+            <br> <br>
+            <b>Company Size</b> <br> 
+            201-500 employees <br> <br>
+            <b>Headquarters</b> <br> 
+            Banglore,Karnataka <br> <br>
+            <b>Founded</b> <br> 
+            2003 <br> <br> <br>
+            <b>Specialties</b> <br>
+            Manual Testing, Automation Tool- Core Java Selenium, Automation Tool- QTP, Performance Tool- Load Runner/ J Meter, Java/ J2EE Training, Frameworks, Placement Assistance, ISTQB training/ ISTQB/CSTE, Automation Framework, Testing Projects, and Mobile Testing
+        </p>
+    </section>
+</body>
+</html>

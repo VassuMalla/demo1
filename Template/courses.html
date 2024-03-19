@@ -1,0 +1,54 @@
+{% load static %}
+{% load bootstrap4 %}
+{% bootstrap_css %}
+{% bootstrap_javascript %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Training Institute | PySpiders</title>
+    <link rel="stylesheet" href="{% static 'courses.css' %}">
+</head>
+<body>
+    <header>
+        <section>
+            <ul class="unord1">
+                <li><img src="https://pyspiders.com/_nuxt/img/logo_pyspiders.4f56184.png" alt=""></li>
+            </ul>
+            <ul class="unord2">
+                <a href="{% url 'web:home' %}"><li>Home</li></a>
+                <a href="{% url 'web:trainers' %}"><li>Trainers</li></a>
+                <a href="{% url 'web:courses' %}"><li id="course">Courses</li></a>
+                <a href="{% url 'web:contact' %}"><li>Contact us</li></a>
+                <a href="{% url 'web:enquiry' %}"><li>Enquiry</li></a>
+                <a href="{% url 'web:about' %}"><li>About Us</li></a>
+            </ul>
+        </section>
+    </header>
+    <section class="set">
+        <div class="demo">
+            <span>
+                <h3 class="head">Python Full Stack</h3>
+                <p class="para">
+                    Python Full Stack course is more of job-oriented training which is designed as per current industry standards. You can start your career in IT industry with basic and advance skills. Course will be trained by top industry experts who have passion to train students and help them get job in IT industry or excel in IT industry.
+                </p>
+                <a href="{% url 'web:detail' %}" class="btn1"><button class="btn">Click here</button></a>
+            </span>
+            <span>
+                <h3 class="head">Python-Selenium</h3>
+                <p class="para">
+                    This course is designed for all manual testers who wants to upgrade their skills to automation. Course will be trained by top industry experts who have passion to train students and help then upgrade their skills level. You can start your career in IT industry with basic and advanced skills.  
+                </p>
+                <a href="{% url 'web:detail' %}" class="btn1"><button class="btn">Click here</button></a>
+            </span><span>
+                <h3 class="head">Python</h3>
+                <p class="para">
+                    Python course is more of job-oriented training which is designed as per current industry standards. You can start your career in IT industry with basic and advance skills. Course will be trained by top industry experts who have passion to train students and help them get job in IT industry or excel in IT industry.
+                </p>
+                <a href="{% url 'web:detail' %}" class="btn1"><button class="btn">Click here</button></a>
+            </span>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,87 @@
+{% load static %}
+{% load bootstrap4 %}
+{% bootstrap_css %}
+{% bootstrap_javascript %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Training Institute | PySpiders</title>
+    <link rel="stylesheet" href="{% static 'contact.css' %}">
+</head>
+<body>
+    <header>
+        <section>
+            <ul class="unord1">
+                <li><img src="https://pyspiders.com/_nuxt/img/logo_pyspiders.4f56184.png" alt=""></li>
+            </ul>
+            <ul class="unord2">
+                <a href="{% url 'web:home' %}"><li>Home</li></a>
+                <a href="{% url 'web:trainers' %}"><li>Trainers</li></a>
+                <a href="{% url 'web:courses' %}"><li>Courses</li></a>
+                <a href="{% url 'web:contact' %}"><li id="contact">Contact us</li></a>
+                <a href="{% url 'web:enquiry' %}"><li>Enquiry</li></a>
+                <a href="{% url 'web:about' %}"><li>About Us</li></a>
+            </ul>
+        </section>
+    </header>
+    <section class="set">
+        <section class="sect">
+        <div class="demo">
+            <section class="setion">
+                <h3>Punjagutta-Telangana</h3>
+                <p>
+                    1st floor, Road, 1, Banjara Hills Main Rd, Punjagutta, Hyderabad, Telangana 500082
+                    <br> 
+                    <p class="phn">+919108993971</p>
+                </p>
+            </section>
+            <section class="setion">            
+                <h3>Bhubhaneshwar</h3>
+                <p>
+                    3rd Floor, NH 16, above Renault Showroom, beside LIC of India Branch-3, Nayapalli, Bhubaneswar, Odisha 751003
+                <br> 
+                <p class="phn">+918093009605</p>
+                </p>
+            </section>
+            <section class="setion">
+                <h3>Kochi - Kerala</h3>
+                <p>
+                    LEVEL 3, AMRA 6A, Automobile Rd, Mamangalam, Palarivattom, Kochi, Kerala - 682025
+                <br> 
+                <p class="phn">+918105036645</p>
+                </p>
+            </section>
+        </div>
+        <div class="demo1">
+            <section class="setion">
+                <h3>Bengaluru - Hebbal</h3>
+                <p>
+                    5th Block, RISANDRO centre, No.1812, Outer Ring Rd, 1st Stage, Telecom Layout, HBR Layout, Bengaluru, Karnataka 560043
+                <br> 
+                <p class="phn">+919663012791</p>
+                </p>
+        </section>
+
+            <section class="setion">
+                <h3>Ahmedabad</h3>
+                <p>
+                    No. 5th & 6th Floor, Peninsula Plaza Between Stadium Circle & Swastik Cross Road, Chimanlal Girdharlal Rd, Ahmedabad, Gujarat 380009
+                <br> 
+                <p class="phn">+918867277575</p>
+                </p>
+            </section>
+            <section class="setion">
+                <h3>Gurugram-New Delhi</h3>
+                <p>
+                    93 Sector-14, IDC, Industrial Development Area, Sector 16, Gurugram, Haryana 122001
+                <br> 
+                <p class="phn">+918861967575</p>
+                </p>
+            </section>
+        </div>
+    </section>
+    </section>
+</body>
+</html>

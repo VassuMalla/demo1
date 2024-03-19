@@ -1,0 +1,39 @@
+{% load static %}
+{% load bootstrap4 %}
+{% bootstrap_css %}
+{% bootstrap_javascript %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Training Institute | PySpiders</title>
+    <link rel="stylesheet" href="{% static 'enquiry.css' %}">
+</head>
+<body>
+    <header>
+        <section>
+            <ul class="unord1">
+                <li><img src="https://pyspiders.com/_nuxt/img/logo_pyspiders.4f56184.png" alt=""></li>
+            </ul>
+            <ul class="unord2">
+                <a href="{% url 'web:home' %}"><li>Home</li></a>
+                <a href="{% url 'web:trainers' %}"><li>Trainers</li></a>
+                <a href="{% url 'web:courses' %}"><li>Courses</li></a>
+                <a href="{% url 'web:contact' %}"><li>Contact us</li></a>
+                <a href="{% url 'web:enquiry' %}"><li id="enquiry">Enquiry</li></a>
+                <a href="{% url 'web:about' %}"><li>About Us</li></a>
+            </ul>
+        </section>
+    </header>
+    <section class="set">
+        <h2>Enquiry Form</h2>
+        <form action="" method="post">
+            <input type="text" name="name" placeholder="Enter your name"> <br> <br>
+            <input type="tel" placeholder="Mobile Number"><br> <br>
+            <input type="email" placeholder="Email address"> <br> <br>
+            <textarea name="" id="" cols="35" rows="3" placeholder="Message"></textarea>
+        </form>
+    </section>
+</body>
+</html>

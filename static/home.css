@@ -1,0 +1,104 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.index{
+    /* border: 2px solid; */
+    margin-left: 130px;
+    color: rgba(165, 42, 155, 0.925);
+    font-weight: 800;
+}
+#logout{
+    color: blue;
+    font-size: 18px;
+}
+.section{
+    /* background: url('https://cdn.pixabay.com/photo/2017/07/08/09/49/red-2483933_640.jpg'); */
+    /* background-color:rgba(210, 105, 30, 0.596); */
+    background-color:rgba(210, 105, 30, 0.336);
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+}
+.unord1{
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.unord2{
+    border: 2px solid;
+    display: inline-flex;
+    width: 1000px;
+    justify-content: space-between;
+    position: absolute;
+    top: 20px;
+    left: 390px;
+    font-size: 22px;
+    /* font-weight: 600; */
+    border-style: none;
+    list-style: none;
+}
+.unord2>li{
+    cursor: pointer;
+}
+.unord2>a{
+    color: black;
+    text-decoration: none;
+}
+#home{
+    text-decoration:underline;
+    color: orange;
+    font-size: 26px;
+}
+.sect{
+    /* border: 2px solid; */
+    width: 1000px;
+    height: 470px;
+    margin-top: 70px;
+    margin-left: 230px;
+    /* font-weight: 600; */
+    font-size: 21px;
+}
+
+.sect2{
+    /* border: 2px solid; */
+    padding-bottom: 50px;
+    padding-top:130px;
+}
+.demo1{
+    /* border: 2px solid; */
+    padding-bottom: 20px;
+    font-size: 20px;
+    display: inline-flex;
+    width: 1000px;
+    height: 440px;
+    font-family:'Times New Roman', Times, serif;
+    justify-content: space-between;
+    margin-left: 230px;
+}
+.recent{
+    /* border: 2px solid; */
+    position: absolute;
+    bottom: 50px;
+    left: 560px;
+}
+.image{
+    /* border: 2px solid; */
+    /* border-radius: 40%; */
+    padding-top: 30px;
+    padding-right: 20px;
+    margin-left: 50px;
+    height: 210px;
+    width: 180px;
+}
+.demo1>span{
+    background-color: rgba(240, 248, 255, 0.616);
+    border: 2px solid;
+    /* padding-bottom: 10px; */
+    padding-left: 20px;
+    padding-right: 28px;
+    border-radius: 100px;
+    box-shadow: rgba(14, 30, 37, 0.788) 0px 2px 4px 0px, rgba(14, 30, 37, 0.829) 0px 2px 16px 0px;
+}

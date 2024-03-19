@@ -1,0 +1,72 @@
+{% load static %}
+{% load bootstrap4 %}
+{% bootstrap_css %}
+{% bootstrap_javascript %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Training Institute | PySpiders</title>
+    <link rel="stylesheet" href="{% static 'trainers.css' %}">
+</head>
+<body>
+    <header>
+        <section>
+            <ul class="unord1">
+                <li><img src="https://pyspiders.com/_nuxt/img/logo_pyspiders.4f56184.png" alt=""></li>
+            </ul>
+            <ul class="unord2">
+                <a href="{% url 'web:home' %}"><li>Home</li></a>
+                <a href="{% url 'web:trainers' %}"><li id="trainer">Trainers</li></a>
+                <a href="{% url 'web:courses' %}"><li>Courses</li></a>
+                <a href="{% url 'web:contact' %}"><li>Contact us</li></a>
+                <a href="{% url 'web:enquiry' %}"><li>Enquiry</li></a>
+                <a href="{% url 'web:about' %}"><li>About Us</li></a>
+            </ul>
+        </section>
+    </header>
+    <section class="set">
+        <div class="demo1">
+            <span>
+                <img src="https://cdn.pixabay.com/photo/2016/03/26/20/35/young-man-1281282_640.jpg" alt="" class="image">
+                <h4 class="name">SCOTT</h4>
+                <p>
+                    Mr. Scott  highly experienced Faculty Member and Solution Architect who specializes in multiple programming languages. He strongly believes that coding and problem-solving skills are crucial for providing students with a solid foundation in computer science.
+                </p>
+            </span>
+            <span>
+                <img src="https://cdn.pixabay.com/photo/2017/10/18/21/36/portrait-2865605_640.jpg " alt="" class="image">
+                <h4 class="name">ELENA</h4>
+                <p>
+                    Ms.Elena is a skilled training professional with over 16 years of experience in teaching various software courses including Asp.Net MVC, and SQL Server. She successfully trained over 150 batches including MNCs, government organizations, small and medium software companies.
+                </p>
+            </span>
+            <span>
+                <img src=" https://cdn.pixabay.com/photo/2019/08/11/11/28/man-4398724_640.jpg" alt="" class="image">
+                <h4 class="name">JACK</h4>
+                <p>
+                    Mr.Jack effortlessly keeps you ahead of the curve with the latest advancements while immersing you in the core concepts and principles of Python. Jack’s patient, approachable, and clear teaching style breaks down even the most complex topics into understandable pieces.
+                </p>
+            </span>
+        </div>
+        <div class="demo2">
+            <span>
+                <img src="https://cdn.pixabay.com/photo/2023/01/24/13/23/viet-nam-7741019_640.jpg" alt="" class="image">
+                <h4 class="name1">AMELIA</h4>
+                <p>
+                    Ms. Amelia delivers real time project use cases for each topic to give students confidence to work on real-world environments and emphasizes on basic fundamentals, troubleshooting, Hands-On and deep dive on each AWS Services using AWS Well Architected Framework.
+                </p>
+            </span>
+            <span>
+                <img src="https://cdn.pixabay.com/photo/2018/12/29/16/06/girl-3901714_640.jpg" alt="" class="image">
+                <h4 class="name1">ARIANA</h4>
+                <p>
+                   Ms.Ariana is your go-to Python trainer. She is an expert in designing databases, SQL statement tuning, and performance tuning. Bangarraju specializes in teaching Object-Oriented Programming, Database Programming, and building N-Tier Applications. 
+                </p>
+            </span>
+        </div>
+    </section>
+</body>
+</html>
+
